@@ -80,6 +80,8 @@ $ pip3 install pytest # install with pip (Python 3)
 $ conda install pytest # OR install with conda
 ```
 
+As Python 2.7 would not be maintained past January 1, 2020 (see [link](https://pythonclock.org/)) we recommend that you start using Python 3.x
+
 To generate the cleaned dataset, run 
 ```
 $ python clean_<file name of dataset>.py
@@ -112,6 +114,8 @@ You will also need to install the tddc package. To get the latest version from G
 ```
 $ pip3 install git+https://github.com/DataKind-SG/test-driven-data-cleaning.git
 ```
+
+As Python 2.7 would not be maintained past January 1, 2020 (see [link](https://pythonclock.org/)) we recommend that you start using Python 3.x
 
 Last but not least, your dataset needs to be in CSV format.
 
