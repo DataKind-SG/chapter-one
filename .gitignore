@@ -5,5 +5,8 @@
 _publish.R
 _book
 _bookdown_files
+tags
+tags.lock
+tags.temp
 rsconnect
 *~
