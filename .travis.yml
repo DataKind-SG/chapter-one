@@ -2,11 +2,14 @@ language: r
 sudo: false
 cache: packages
 
-pandoc_version: 1.17.2
+pandoc_version: 1.19.2.1
+
+r_packages:
+    - bookdown
 
 script:
   - Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
-  
+
 deploy:
   provider: pages
   skip_cleanup: true
